@@ -59,6 +59,7 @@ car.showInfo()
 //var cola = Tovar(name: "COla", cost: 50)
 
 shop.addTovar(add: cola)
+shop.addTovar(add: sandwich)
 shop.shpowInfo()
 
 

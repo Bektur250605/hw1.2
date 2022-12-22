@@ -38,4 +38,5 @@ class Tovar {
     }
 }
 var shop = Shop(name: "Bektur")
-var cola = Tovar(name: "COla", cost: 50)
+var cola = Tovar(name: "Cola", cost: 50)
+var sandwich = Tovar(name: "Sandwich", cost: 80)

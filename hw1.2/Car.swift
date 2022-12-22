@@ -19,9 +19,9 @@ class Car{
         self.power = power
     }
     func showInfo(){
-        print("\(mark), \(speed), \(power)")
-        update(updatePower: 20, updateSpeed: 40, mark: "BMW")
+        print("It's a car with mark - \(mark), with speed - \(speed),and with power - \(power)")
+        update(updatePower: 250, updateSpeed: 350, mark: "Mercedes")
     }
     
 }
-var car = Car(mark: "BMW", speed: 10, power: 10)
+var car = Car(mark: "Mercedes", speed: 300, power: 200)
