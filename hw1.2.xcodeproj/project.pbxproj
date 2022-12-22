@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B73DFF0B29533D2500F615DB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73DFF0A29533D2500F615DB /* main.swift */; };
+		B73DFF162954774E00F615DB /* shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73DFF152954774D00F615DB /* shop.swift */; };
+		B73DFF1829547A2100F615DB /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73DFF1729547A2100F615DB /* Car.swift */; };
+		B73DFF1A2954912D00F615DB /* Class Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73DFF192954912D00F615DB /* Class Bank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		B73DFF0729533D2500F615DB /* hw1.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw1.2; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73DFF0A29533D2500F615DB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B73DFF152954774D00F615DB /* shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shop.swift; sourceTree = "<group>"; };
+		B73DFF1729547A2100F615DB /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		B73DFF192954912D00F615DB /* Class Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class Bank.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				B73DFF0A29533D2500F615DB /* main.swift */,
+				B73DFF192954912D00F615DB /* Class Bank.swift */,
+				B73DFF1729547A2100F615DB /* Car.swift */,
+				B73DFF152954774D00F615DB /* shop.swift */,
 			);
 			path = hw1.2;
 			sourceTree = "<group>";
@@ -121,6 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73DFF0B29533D2500F615DB /* main.swift in Sources */,
+				B73DFF1A2954912D00F615DB /* Class Bank.swift in Sources */,
+				B73DFF162954774E00F615DB /* shop.swift in Sources */,
+				B73DFF1829547A2100F615DB /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
