@@ -4,24 +4,34 @@
 
 //import Foundation
 //class Car{
-//    var mark:String
-//    var speed: Int
-//    var power: Int
-//    func update(updatePower: Int, updateSpeed: Int, mark:String){
-//        print("\(updatePower) \(updateSpeed) \(mark)")
-//    }
-//    init(mark: String, speed: Int, power: Int) {
-//        self.mark = mark
-//        self.speed = speed
-//        self.power = power
-//    }
-//    func showInfo(){
-//        print("\(mark), \(speed), \(power)")
-//        update(updatePower: 20, updateSpeed: 40, mark: "BMW")
-//    }
-//    
-//}
-//var car = Car(mark: "BMW", speed: 10, power: 10)
+//     var mark:String
+//     var speed: Int
+//     var power: Int
+    
+ 
+//     init(mark: String, speed: Int, power: Int) {
+//         self.mark = mark
+//         self.speed = speed
+//         self.power = power
+//     }
+    
+//     func update(updatePower: Int, updateSpeed: Int, mark:String){
+//         power += updatePower
+//         speed += updateSpeed
+//         self.mark = mark
+//         print("\(updatePower) \(updateSpeed) \(mark)")
+//     }
+    
+//     func showInfo(){
+//         update(updatePower: 20, updateSpeed: 40, mark: "Mercedes")
+//         print("It's a car with mark - \(mark), with speed - \(speed),and with power - \(power)")
+        
+//     }
+    
+// }
+var car = Car(mark: "Mercedes", speed: 300, power: 200)
+var car2 = Car(mark: "Mercedes", speed: 320, power: 250)
+car.update(updatePower: 500, updateSpeed: 150, mark: "bmw")
 
 car.showInfo()
 //
