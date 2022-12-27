@@ -13,11 +13,20 @@ class Car{
     func update(updatePower: Int, updateSpeed: Int, mark:String){
         print("\(updatePower) \(updateSpeed) \(mark)")
     }
+    
     init(mark: String, speed: Int, power: Int) {
         self.mark = mark
         self.speed = speed
         self.power = power
     }
+     
+    func update(updatePower: Int, updateSpeed: Int, mark:String){
+        power += updatePower
+        speed += updateSpeed
+        self.mark = mark
+        print("\(updatePower) \(updateSpeed) \(mark)")
+    }
+    
     func showInfo(){
         print("It's a car with mark - \(mark), with speed - \(speed),and with power - \(power)")
         update(updatePower: 250, updateSpeed: 350, mark: "Mercedes")
